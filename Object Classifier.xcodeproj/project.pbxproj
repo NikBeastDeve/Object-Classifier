@@ -13,6 +13,11 @@
 		12726A1024095CC600CCE583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12726A0F24095CC600CCE583 /* Assets.xcassets */; };
 		12726A1324095CC600CCE583 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12726A1224095CC600CCE583 /* Preview Assets.xcassets */; };
 		12726A1624095CC600CCE583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12726A1424095CC600CCE583 /* LaunchScreen.storyboard */; };
+		12726A1E24095D4900CCE583 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12726A1D24095D4900CCE583 /* InputViewController.swift */; };
+		12726A2024095D6600CCE583 /* EnviromentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12726A1F24095D6600CCE583 /* EnviromentData.swift */; };
+		12726A2224095D8B00CCE583 /* EnviromentExchanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12726A2124095D8B00CCE583 /* EnviromentExchanger.swift */; };
+		12726A2424095DC000CCE583 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 12726A2324095DC000CCE583 /* Resnet50.mlmodel */; };
+		127F52D2240C69330094A6D1 /* IMG_6805_iphonexspacegrey_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 127F52D1240C69330094A6D1 /* IMG_6805_iphonexspacegrey_portrait.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		12726A1224095CC600CCE583 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12726A1524095CC600CCE583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12726A1724095CC600CCE583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12726A1D24095D4900CCE583 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		12726A1F24095D6600CCE583 /* EnviromentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentData.swift; sourceTree = "<group>"; };
+		12726A2124095D8B00CCE583 /* EnviromentExchanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnviromentExchanger.swift; sourceTree = "<group>"; };
+		12726A2324095DC000CCE583 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
+		127F52D1240C69330094A6D1 /* IMG_6805_iphonexspacegrey_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_6805_iphonexspacegrey_portrait.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		12726A0824095CC500CCE583 /* Object Classifier */ = {
 			isa = PBXGroup;
 			children = (
+				127F52D0240C68E80094A6D1 /* Screenshots */,
 				12726A0924095CC500CCE583 /* AppDelegate.swift */,
 				12726A0B24095CC500CCE583 /* SceneDelegate.swift */,
 				12726A0D24095CC500CCE583 /* ContentView.swift */,
+				12726A1D24095D4900CCE583 /* InputViewController.swift */,
+				12726A2324095DC000CCE583 /* Resnet50.mlmodel */,
 				12726A0F24095CC600CCE583 /* Assets.xcassets */,
 				12726A1424095CC600CCE583 /* LaunchScreen.storyboard */,
 				12726A1724095CC600CCE583 /* Info.plist */,
 				12726A1124095CC600CCE583 /* Preview Content */,
+				12726A1F24095D6600CCE583 /* EnviromentData.swift */,
+				12726A2124095D8B00CCE583 /* EnviromentExchanger.swift */,
 			);
 			path = "Object Classifier";
 			sourceTree = "<group>";
@@ -73,6 +88,14 @@
 				12726A1224095CC600CCE583 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		127F52D0240C68E80094A6D1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				127F52D1240C69330094A6D1 /* IMG_6805_iphonexspacegrey_portrait.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12726A1624095CC600CCE583 /* LaunchScreen.storyboard in Resources */,
+				127F52D2240C69330094A6D1 /* IMG_6805_iphonexspacegrey_portrait.png in Resources */,
 				12726A1324095CC600CCE583 /* Preview Assets.xcassets in Resources */,
 				12726A1024095CC600CCE583 /* Assets.xcassets in Resources */,
 			);
@@ -146,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12726A2424095DC000CCE583 /* Resnet50.mlmodel in Sources */,
 				12726A0A24095CC500CCE583 /* AppDelegate.swift in Sources */,
 				12726A0C24095CC500CCE583 /* SceneDelegate.swift in Sources */,
+				12726A2224095D8B00CCE583 /* EnviromentExchanger.swift in Sources */,
 				12726A0E24095CC500CCE583 /* ContentView.swift in Sources */,
+				12726A1E24095D4900CCE583 /* InputViewController.swift in Sources */,
+				12726A2024095D6600CCE583 /* EnviromentData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
